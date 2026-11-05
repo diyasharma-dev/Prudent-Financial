@@ -65,8 +65,8 @@
 
               <!-- Floating badge -->
               <div class="hidden sm:flex absolute -bottom-5 -left-5 bg-white p-4 rounded-2xl shadow-xl border border-slate-200 items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-lg">
-                  📈
+                <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+                  <svg class="w-5 h-5 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
                 </div>
                 <div>
                   <div class="text-xs font-bold text-slate-900">30-Min Diagnostic</div>
@@ -99,7 +99,9 @@
           <!-- Pillar 1 -->
           <div class="bg-slate-50 border border-slate-200 rounded-2xl p-7 space-y-4 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col justify-between">
             <div class="space-y-3">
-              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xl">💡</div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold">
+                <svg class="w-6 h-6 text-emerald-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+              </div>
               <h3 class="font-heading font-bold text-lg text-slate-900">Financial Diagnostic &amp; Operational Health Check</h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
                 Comprehensive 50-point audit of your current chart of accounts, expense leakages, margin compression points, and hidden vendor redundancies.
@@ -119,7 +121,9 @@
           <!-- Pillar 2 -->
           <div class="bg-slate-50 border border-slate-200 rounded-2xl p-7 space-y-4 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col justify-between">
             <div class="space-y-3">
-              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xl">🌊</div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold">
+                <svg class="w-6 h-6 text-emerald-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              </div>
               <h3 class="font-heading font-bold text-lg text-slate-900">13-Week Cash Flow &amp; Runway Modeling</h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
                 Replace guesswork with dynamic, rolling 13-week cash forecasting that tracks collections, payroll cycles, debt service, and vendor payables.
@@ -139,7 +143,9 @@
           <!-- Pillar 3 -->
           <div class="bg-slate-50 border border-slate-200 rounded-2xl p-7 space-y-4 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col justify-between">
             <div class="space-y-3">
-              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xl">💻</div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold">
+                <svg class="w-6 h-6 text-emerald-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
               <h3 class="font-heading font-bold text-lg text-slate-900">Computer &amp; Accounting Systems Consulting</h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
                 Migrate smoothly from outdated desktop files or fragmented spreadsheets to clean QuickBooks Online, Xero, or modern cloud ERP systems.
@@ -159,7 +165,9 @@
           <!-- Pillar 4 -->
           <div class="bg-slate-50 border border-slate-200 rounded-2xl p-7 space-y-4 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col justify-between">
             <div class="space-y-3">
-              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xl">🤝</div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold">
+                <svg class="w-6 h-6 text-emerald-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+              </div>
               <h3 class="font-heading font-bold text-lg text-slate-900">M&amp;A Due Diligence &amp; Business Valuation</h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
                 Preparing to buy a competitor or sell your business? We conduct rigorous buy-side/sell-side financial due diligence and Quality of Earnings (QofE).
@@ -179,7 +187,9 @@
           <!-- Pillar 5 -->
           <div class="bg-slate-50 border border-slate-200 rounded-2xl p-7 space-y-4 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col justify-between">
             <div class="space-y-3">
-              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xl">🏛️</div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold">
+                <svg class="w-6 h-6 text-emerald-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"/></svg>
+              </div>
               <h3 class="font-heading font-bold text-lg text-slate-900">Corporate Restructuring &amp; Entity Tax Strategy</h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
                 Aligning corporate entity structures (LLC, S-Corp, C-Corp, Holding Company) to minimize state franchise taxes and maximize pass-through deductions.
@@ -199,7 +209,9 @@
           <!-- Pillar 6 -->
           <div class="bg-slate-50 border border-slate-200 rounded-2xl p-7 space-y-4 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col justify-between">
             <div class="space-y-3">
-              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xl">👔</div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold">
+                <svg class="w-6 h-6 text-emerald-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
               <h3 class="font-heading font-bold text-lg text-slate-900">Fractional / Virtual CFO Retainers</h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
                 Get senior-level financial direction on demand without the $250,000+ executive salary. We attend board meetings, liaise with banks, and steer strategy.

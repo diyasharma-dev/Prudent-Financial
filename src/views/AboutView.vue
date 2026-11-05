@@ -22,6 +22,14 @@
         <div class="grid lg:grid-cols-12 gap-12 items-center">
           
           <div class="lg:col-span-6 space-y-6">
+            <div class="flex items-center gap-4 mb-2">
+              <img 
+                src="/images/prufininc-logo-transparent.png" 
+                alt="Prudent Financial Services, Inc." 
+                class="h-16 sm:h-20 w-auto object-contain drop-shadow-sm"
+              />
+            </div>
+
             <div class="border-l-4 border-emerald-600 pl-4">
               <span class="text-xs font-bold text-emerald-700 uppercase tracking-widest">Our Heritage &amp; Genesis</span>
               <h2 class="text-3xl font-extrabold text-slate-900 font-heading">

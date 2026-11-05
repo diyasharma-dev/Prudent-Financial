@@ -12,6 +12,14 @@
           
           <!-- Left Hero Content -->
           <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            <div class="flex items-center justify-center lg:justify-start gap-3 mb-2">
+              <img 
+                src="/images/prufininc-logo-transparent.png" 
+                alt="Prudent Financial Services, Inc." 
+                class="h-16 sm:h-20 w-auto object-contain drop-shadow-sm"
+              />
+            </div>
+
             <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100/80 border border-emerald-300 text-emerald-900 text-xs font-semibold tracking-wide shadow-sm">
               <span class="w-2 h-2 rounded-full bg-emerald-600"></span>
               <span>US CPA Leadership • 24/7 Dual-Shore Delivery</span>
@@ -123,8 +131,8 @@
 
               <!-- Floating badge top-right -->
               <div class="hidden sm:flex absolute -top-5 -right-5 bg-white/95 backdrop-blur-md p-3.5 rounded-2xl shadow-xl border border-slate-200 items-center gap-3 z-20">
-                <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-lg">
-                  ⚡
+                <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+                  <svg class="w-5 h-5 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
                 </div>
                 <div>
                   <div class="text-xs font-bold text-slate-900">Overnight Processing</div>
@@ -150,8 +158,18 @@
           
           <!-- Left Column: Rich Content & Feature Points -->
           <div class="lg:col-span-6 space-y-6">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider">
-              <span>Company Heritage &amp; Mission</span>
+            <div class="flex items-center gap-4">
+              <img 
+                src="/images/prufininc-logo-transparent.png" 
+                alt="Prudent Financial Services, Inc." 
+                class="h-16 sm:h-20 w-auto object-contain drop-shadow-sm"
+              />
+              <div>
+                <span class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider">
+                  Company Heritage &amp; Mission
+                </span>
+                <p class="text-xs text-slate-500 font-medium mt-0.5">Prudent Financial Services, Inc.</p>
+              </div>
             </div>
 
             <div class="border-b-2 border-emerald-600 pb-3">
@@ -174,28 +192,36 @@
             <!-- 4 Visual Feature Cards -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
               <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex items-start gap-3">
-                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-sm shrink-0">✓</div>
+                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                </div>
                 <div>
                   <h4 class="text-sm font-bold text-slate-900">Daily Ledger &amp; Reconciliations</h4>
                   <p class="text-xs text-slate-600 mt-0.5">AP/AR, bank reconciliation &amp; GL</p>
                 </div>
               </div>
               <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex items-start gap-3">
-                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-sm shrink-0">✓</div>
+                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                </div>
                 <div>
                   <h4 class="text-sm font-bold text-slate-900">Managerial Review</h4>
                   <p class="text-xs text-slate-600 mt-0.5">Monthly P&amp;L, balance sheets &amp; cash flows</p>
                 </div>
               </div>
               <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex items-start gap-3">
-                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-sm shrink-0">✓</div>
+                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                </div>
                 <div>
                   <h4 class="text-sm font-bold text-slate-900">US Taxation &amp; CPA</h4>
                   <p class="text-xs text-slate-600 mt-0.5">Federal, state &amp; payroll tax filings</p>
                 </div>
               </div>
               <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex items-start gap-3">
-                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-sm shrink-0">✓</div>
+                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                </div>
                 <div>
                   <h4 class="text-sm font-bold text-slate-900">Cloud Technology</h4>
                   <p class="text-xs text-slate-600 mt-0.5">247Bookkeeper™ &amp; 247eCabinet™</p>
@@ -251,8 +277,8 @@
               <div class="absolute -top-6 -right-4 sm:-right-6 bg-slate-900 text-white p-4 rounded-2xl shadow-xl border border-slate-700 text-left">
                 <div class="text-2xl font-extrabold text-emerald-400 font-heading">20+ Years</div>
                 <div class="text-xs text-slate-300 font-medium">Serving US Small &amp; Mid Businesses</div>
-                <div class="flex items-center gap-1 text-amber-400 text-xs mt-1">
-                  ★★★★★
+                <div class="flex items-center gap-1 text-amber-400 mt-1">
+                  <svg v-for="s in 5" :key="s" class="w-3.5 h-3.5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
                 </div>
               </div>
 
@@ -330,9 +356,9 @@
                   Live web-based accounting portal providing business owners and financial managers with instant access to daily bank balances, vendor invoice statuses, and profitability metrics from any browser.
                 </p>
                 <ul class="text-xs text-slate-600 space-y-2 pt-3 border-t border-slate-200">
-                  <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Real-time KPI revenue &amp; expense dashboard</li>
-                  <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> AP bill approval &amp; automated payment scheduling</li>
-                  <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> AR aging analysis &amp; overdue collection alerts</li>
+                  <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Real-time KPI revenue &amp; expense dashboard</li>
+                  <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> AP bill approval &amp; automated payment scheduling</li>
+                  <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> AR aging analysis &amp; overdue collection alerts</li>
                 </ul>
               </div>
             </div>
@@ -369,9 +395,9 @@
                   Paperless digital document management with 256-bit bank-grade encryption. Securely store, index, and instantly retrieve vendor receipts, customer invoices, tax filings, and bank statements.
                 </p>
                 <ul class="text-xs text-slate-600 space-y-2 pt-3 border-t border-slate-200">
-                  <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> 256-Bit SSL/TLS cloud document storage</li>
-                  <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Audit-ready trail with optical OCR indexing</li>
-                  <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Role-based permission controls &amp; disaster recovery</li>
+                  <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> 256-Bit SSL/TLS cloud document storage</li>
+                  <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Audit-ready trail with optical OCR indexing</li>
+                  <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Role-based permission controls &amp; disaster recovery</li>
                 </ul>
               </div>
             </div>
@@ -408,9 +434,9 @@
                   Our New York headquarters provides US CPA direction and regulatory compliance, while our 24/7 technical processing centers in Hyderabad, India deliver overnight transaction turnaround.
                 </p>
                 <ul class="text-xs text-slate-600 space-y-2 pt-3 border-t border-slate-200">
-                  <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Over-the-counter NY client service (EST time zone)</li>
-                  <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Overnight transaction processing while you sleep</li>
-                  <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> 50% to 60% operational overhead cost reduction</li>
+                  <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Over-the-counter NY client service (EST time zone)</li>
+                  <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Overnight transaction processing while you sleep</li>
+                  <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> 50% to 60% operational overhead cost reduction</li>
                 </ul>
               </div>
             </div>
@@ -528,7 +554,9 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3 hover:border-emerald-500 hover:shadow-md transition-all">
-            <div class="text-2xl">🩺</div>
+            <div class="w-11 h-11 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+            </div>
             <h3 class="font-heading font-bold text-slate-900 text-base">Healthcare &amp; Medical Practices</h3>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
               HIPAA-compliant document handling, patient co-pay reconciliations, medical equipment depreciation, and multi-provider P&amp;L allocations.
@@ -536,7 +564,9 @@
           </div>
 
           <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3 hover:border-emerald-500 hover:shadow-md transition-all">
-            <div class="text-2xl">🛒</div>
+            <div class="w-11 h-11 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+            </div>
             <h3 class="font-heading font-bold text-slate-900 text-base">E-Commerce &amp; Retail Brands</h3>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
               Multi-channel sales reconciliation across Shopify, Amazon, Stripe, and PayPal, plus automated multi-state sales tax filing and inventory costing.
@@ -544,7 +574,9 @@
           </div>
 
           <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3 hover:border-emerald-500 hover:shadow-md transition-all">
-            <div class="text-2xl">⚖️</div>
+            <div class="w-11 h-11 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
+            </div>
             <h3 class="font-heading font-bold text-slate-900 text-base">Legal &amp; Professional Services</h3>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
               IOLTA trust account compliance, retainer tracking, billable hour expense allocations, and partner distribution accounting.
@@ -552,7 +584,9 @@
           </div>
 
           <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3 hover:border-emerald-500 hover:shadow-md transition-all">
-            <div class="text-2xl">🏗️</div>
+            <div class="w-11 h-11 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+            </div>
             <h3 class="font-heading font-bold text-slate-900 text-base">Construction &amp; Real Estate</h3>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
               Job costing, WIP (Work In Progress) calculations, subcontractor 1099 filing, AIA progress billing, and property rental ledger tracking.
@@ -560,7 +594,9 @@
           </div>
 
           <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3 hover:border-emerald-500 hover:shadow-md transition-all">
-            <div class="text-2xl">📦</div>
+            <div class="w-11 h-11 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+            </div>
             <h3 class="font-heading font-bold text-slate-900 text-base">Wholesale &amp; Distribution</h3>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
               High-volume transaction processing, supply chain purchase order 3-way matching, landed cost calculations, and vendor credit terms management.
@@ -568,7 +604,9 @@
           </div>
 
           <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3 hover:border-emerald-500 hover:shadow-md transition-all">
-            <div class="text-2xl">💻</div>
+            <div class="w-11 h-11 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
             <h3 class="font-heading font-bold text-slate-900 text-base">Tech Startups &amp; SaaS</h3>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
               ASC 606 recurring revenue recognition, monthly cash burn rate monitoring, 13-week runway modeling, and investor-ready financial packages.
@@ -599,8 +637,8 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <!-- Testimonial 1 -->
           <div class="bg-white p-7 rounded-3xl border border-slate-200/90 shadow-sm space-y-5">
-            <div class="flex items-center gap-1 text-amber-400 text-sm">
-              ★★★★★
+            <div class="flex items-center gap-1 text-amber-400">
+              <svg v-for="s in 5" :key="s" class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
             </div>
             <p class="text-slate-700 text-sm sm:text-base leading-relaxed italic">
               "Switching to Prudent Financial cut our accounting overhead by $3,800 every month. Their dual-shore team finishes bank reconciliation overnight while we sleep. When we open our office in NY, our numbers are ready."
@@ -616,8 +654,8 @@
 
           <!-- Testimonial 2 -->
           <div class="bg-white p-7 rounded-3xl border border-slate-200/90 shadow-sm space-y-5">
-            <div class="flex items-center gap-1 text-amber-400 text-sm">
-              ★★★★★
+            <div class="flex items-center gap-1 text-amber-400">
+              <svg v-for="s in 5" :key="s" class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
             </div>
             <p class="text-slate-700 text-sm sm:text-base leading-relaxed italic">
               "The 247eCabinet™ system replaced all our physical filing cabinets. During our annual corporate audit, our CPA retrieved every single receipt and invoice in minutes. Prudent's attention to detail is unmatched."
@@ -693,9 +731,9 @@
         </div>
 
         <div class="flex flex-wrap items-center justify-center gap-6 text-xs text-emerald-200 pt-4">
-          <span>✓ No long-term contracts</span>
-          <span>✓ Free 30-min setup audit</span>
-          <span>✓ 100% confidential under NDA</span>
+          <span class="flex items-center gap-1.5"><svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> No long-term contracts</span>
+          <span class="flex items-center gap-1.5"><svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Free 30-min setup audit</span>
+          <span class="flex items-center gap-1.5"><svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> 100% confidential under NDA</span>
         </div>
 
       </div>

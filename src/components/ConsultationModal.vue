@@ -9,8 +9,8 @@
 
       <!-- Confirmation state -->
       <div v-if="submittedRefId" class="text-center py-6 space-y-4">
-        <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center mx-auto text-2xl font-bold">
-          ✓
+        <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto">
+          <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
         </div>
         <div>
           <span class="inline-block px-3 py-1 rounded bg-emerald-100 text-emerald-800 text-xs font-mono font-bold uppercase tracking-wider">
@@ -28,10 +28,11 @@
 
       <!-- Form state -->
       <div v-else>
-        <div class="space-y-1 mb-6">
-          <span class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold">Free 30-Min Diagnostic</span>
+        <div class="text-center mb-5">
+          <img src="/images/prufininc-logo-transparent.png" alt="Prudent Financial Services, Inc." class="h-14 w-auto mx-auto object-contain mb-3" />
+          <span class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold mb-1">Free 30-Min Diagnostic</span>
           <h3 class="text-2xl font-bold font-heading text-slate-900">Book Your Discovery Call</h3>
-          <p class="text-xs text-slate-500">A senior Prudent accountant will review your current bookkeeping and show you exact savings.</p>
+          <p class="text-xs text-slate-500 mt-1">A senior Prudent accountant will review your current bookkeeping and show you exact savings.</p>
         </div>
 
         <form @submit.prevent="handleSubmit" class="space-y-3.5">
@@ -77,8 +78,9 @@
             <span v-else>Connecting with Accounting Queue...</span>
           </button>
 
-          <p class="text-[11px] text-slate-400 text-center">
-            🔒 256-Bit Encrypted • Strictly Confidential Under NDA
+          <p class="text-[11px] text-slate-400 text-center flex items-center justify-center gap-1.5">
+            <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+            <span>256-Bit Encrypted • Strictly Confidential Under NDA</span>
           </p>
         </form>
       </div>

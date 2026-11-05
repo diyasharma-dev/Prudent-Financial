@@ -22,12 +22,19 @@
           
           <div v-for="(ind, idx) in industries" :key="idx" class="p-8 rounded-3xl bg-slate-50 border border-slate-200 space-y-4 hover:border-emerald-500 transition-all flex flex-col justify-between">
             <div class="space-y-3">
-              <div class="text-3xl">{{ ind.icon }}</div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center">
+                <svg v-if="ind.id === 'healthcare'" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+                <svg v-else-if="ind.id === 'retail'" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+                <svg v-else-if="ind.id === 'legal'" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
+                <svg v-else-if="ind.id === 'construction'" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                <svg v-else-if="ind.id === 'wholesale'" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                <svg v-else class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
               <h3 class="font-heading font-bold text-xl text-slate-900">{{ ind.title }}</h3>
               <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">{{ ind.desc }}</p>
               <ul class="text-xs text-slate-500 space-y-1.5 pt-2 border-t border-slate-200">
                 <li v-for="(b, i) in ind.bullets" :key="i" class="flex items-center gap-1.5">
-                  <span class="text-emerald-600 font-bold">✓</span>
+                  <svg class="w-3.5 h-3.5 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
                   <span>{{ b }}</span>
                 </li>
               </ul>
@@ -67,37 +74,37 @@ const { openConsultationModal } = useApp();
 
 const industries = [
   {
-    icon: '🩺',
+    id: 'healthcare',
     title: 'Healthcare & Medical Practices',
     desc: 'HIPAA-compliant document handling, patient co-pay reconciliations, medical equipment depreciation, and multi-provider P&L allocations.',
     bullets: ['HIPAA compliant', 'Insurance billing matching', 'Provider P&L distribution']
   },
   {
-    icon: '🛒',
+    id: 'retail',
     title: 'E-Commerce & Retail Brands',
     desc: 'Multi-channel sales reconciliation across Shopify, Amazon, Stripe, and PayPal, plus automated multi-state sales tax filing and inventory costing.',
     bullets: ['Multi-channel sales tax', 'Stripe & PayPal reconciliation', 'Inventory valuation']
   },
   {
-    icon: '⚖️',
+    id: 'legal',
     title: 'Legal & Professional Services',
     desc: 'IOLTA trust account compliance, retainer tracking, billable hour expense allocations, and partner distribution accounting.',
     bullets: ['IOLTA trust accounting', 'Retainer drawdown audits', 'Partner allocations']
   },
   {
-    icon: '🏗️',
+    id: 'construction',
     title: 'Construction & Real Estate',
     desc: 'Job costing, WIP (Work In Progress) calculations, subcontractor 1099 filing, AIA progress billing, and property rental ledger tracking.',
     bullets: ['Job costing & WIP', 'Subcontractor 1099s', 'AIA progress billing']
   },
   {
-    icon: '📦',
+    id: 'wholesale',
     title: 'Wholesale & Distribution',
     desc: 'High-volume transaction processing, supply chain purchase order 3-way matching, landed cost calculations, and vendor credit terms management.',
     bullets: ['3-way PO matching', 'Landed cost calculations', 'High-volume batching']
   },
   {
-    icon: '💻',
+    id: 'tech',
     title: 'Tech Startups & SaaS',
     desc: 'ASC 606 recurring revenue recognition, monthly cash burn rate monitoring, 13-week runway modeling, and investor-ready financial packages.',
     bullets: ['ASC 606 revenue recognition', 'Monthly cash runway', 'Cap table assistance']

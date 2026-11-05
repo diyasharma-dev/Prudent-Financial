@@ -7,9 +7,7 @@
       </button>
 
       <div class="text-center space-y-2 mb-6">
-        <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold mx-auto text-xl">
-          🔐
-        </div>
+        <img src="/images/prufininc-logo-transparent.png" alt="Prudent Financial Services, Inc." class="h-16 w-auto mx-auto object-contain mb-2" />
         <h3 class="text-xl font-bold font-heading text-slate-900">247eCabinet™ Client Access</h3>
         <p class="text-xs text-slate-500">Sign in to your encrypted digital document repository</p>
       </div>

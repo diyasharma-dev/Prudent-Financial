@@ -11,12 +11,16 @@
           
           <!-- Left Column: Value Proposition & Direct Contact -->
           <div class="lg:col-span-6 space-y-6">
+            <div class="flex items-center gap-3">
+              <img src="/images/prufininc-logo-white.png" alt="Prudent Financial Services, Inc." class="h-16 w-auto object-contain" />
+            </div>
+
             <span class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-semibold uppercase tracking-wider border border-emerald-400/30">
               Free 30-Minute Financial Diagnostic
             </span>
 
             <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white leading-tight">
-              Get an Expert Assessment of Your Accounting & Exact Overhead Savings
+              Get an Expert Assessment of Your Accounting &amp; Exact Overhead Savings
             </h2>
 
             <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
@@ -25,21 +29,27 @@
 
             <div class="space-y-3 pt-2">
               <div class="flex items-start gap-3">
-                <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">✓</div>
+                <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                </div>
                 <div class="text-xs sm:text-sm text-slate-200">
-                  <strong>QuickBooks & Chart of Accounts Audit:</strong> We analyze error patterns, un-reconciled items, and software bottlenecks.
+                  <strong>QuickBooks &amp; Chart of Accounts Audit:</strong> We analyze error patterns, un-reconciled items, and software bottlenecks.
                 </div>
               </div>
 
               <div class="flex items-start gap-3">
-                <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">✓</div>
+                <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                </div>
                 <div class="text-xs sm:text-sm text-slate-200">
                   <strong>Transparent Fixed-Rate Quote:</strong> Predictable monthly billing with zero employee overhead or hidden software charges.
                 </div>
               </div>
 
               <div class="flex items-start gap-3">
-                <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">✓</div>
+                <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                </div>
                 <div class="text-xs sm:text-sm text-slate-200">
                   <strong>100% Confidential Under NDA:</strong> Your sensitive financial figures are strictly protected under bank-grade security.
                 </div>
@@ -66,8 +76,8 @@
           <div class="lg:col-span-6 bg-white rounded-3xl p-6 sm:p-8 text-slate-800 shadow-2xl border border-slate-200">
             
             <div v-if="submittedRefId" class="py-8 text-center space-y-4">
-              <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center mx-auto text-2xl font-bold">
-                ✓
+              <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto">
+                <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
               </div>
               <div>
                 <span class="inline-block px-3 py-1 rounded bg-emerald-100 text-emerald-800 text-xs font-mono font-bold uppercase tracking-wider">

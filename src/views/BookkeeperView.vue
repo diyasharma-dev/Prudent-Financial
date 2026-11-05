@@ -108,7 +108,8 @@
                 </td>
                 <td class="p-4 text-center">
                   <span class="inline-flex items-center gap-1 text-emerald-700 font-bold bg-emerald-50 px-2.5 py-0.5 rounded-full text-[11px]">
-                    ✓ Balanced
+                    <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                    <span>Balanced</span>
                   </span>
                 </td>
               </tr>
@@ -131,8 +132,12 @@
                   <div class="font-mono font-bold text-slate-900 text-base">${{ bill.amount }}</div>
                   <span class="text-[11px] text-emerald-700">3-Way Matched</span>
                 </div>
-                <button @click="approveBill(i)" :disabled="bill.approved" class="px-4 py-2 rounded-xl text-xs font-bold transition-all" :class="bill.approved ? 'bg-slate-200 text-slate-500 cursor-not-allowed' : 'bg-emerald-700 text-white hover:bg-emerald-800'">
-                  {{ bill.approved ? 'Approved ✓' : 'Approve for Payment' }}
+                <button @click="approveBill(i)" :disabled="bill.approved" class="px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5" :class="bill.approved ? 'bg-slate-200 text-slate-500 cursor-not-allowed' : 'bg-emerald-700 text-white hover:bg-emerald-800'">
+                  <span v-if="bill.approved" class="flex items-center gap-1">
+                    <span>Approved</span>
+                    <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                  </span>
+                  <span v-else>Approve for Payment</span>
                 </button>
               </div>
             </div>

@@ -35,10 +35,10 @@
               <p class="text-xs text-slate-600">Ideal for businesses with revenue under $500K and up to 150 monthly transactions.</p>
               
               <ul class="text-xs text-slate-600 space-y-2.5 pt-4 border-t border-slate-100">
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Monthly general ledger balancing</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Up to 2 bank &amp; credit card accounts</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Monthly Balance Sheet &amp; P&amp;L</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> 247eCabinet document storage</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Monthly general ledger balancing</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Up to 2 bank &amp; credit card accounts</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Monthly Balance Sheet &amp; P&amp;L</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> 247eCabinet document storage</li>
               </ul>
             </div>
             <button @click="openConsultationModal" class="w-full py-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold text-xs transition-colors">
@@ -64,11 +64,11 @@
               <p class="text-xs text-slate-300">For businesses generating $500K - $3M with active weekly transaction volume.</p>
               
               <ul class="text-xs text-slate-200 space-y-2.5 pt-4 border-t border-emerald-800">
-                <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Weekly transaction coding &amp; reconciliation</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Up to 5 bank, card &amp; merchant accounts</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Full Accounts Payable &amp; Receivable tracking</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Dedicated New York Account Manager</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Monthly CPA financial review session</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Weekly transaction coding &amp; reconciliation</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Up to 5 bank, card &amp; merchant accounts</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Full Accounts Payable &amp; Receivable tracking</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Dedicated New York Account Manager</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Monthly CPA financial review session</li>
               </ul>
             </div>
             <button @click="openConsultationModal" class="w-full py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs uppercase tracking-wider shadow transition-colors">
@@ -90,11 +90,11 @@
               <p class="text-xs text-slate-600">For companies $3M - $20M requiring daily accounting operations and CFO advisory.</p>
               
               <ul class="text-xs text-slate-600 space-y-2.5 pt-4 border-t border-slate-100">
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Daily ledger postings &amp; cash tracking</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Unlimited bank &amp; credit accounts</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> 13-week rolling cash flow &amp; budget modeling</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Full payroll tax compliance &amp; W-2/1099 filings</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Bi-weekly executive strategy briefing</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Daily ledger postings &amp; cash tracking</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Unlimited bank &amp; credit accounts</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> 13-week rolling cash flow &amp; budget modeling</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Full payroll tax compliance &amp; W-2/1099 filings</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Bi-weekly executive strategy briefing</li>
               </ul>
             </div>
             <button @click="openConsultationModal" class="w-full py-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold text-xs transition-colors">
@@ -139,10 +139,10 @@
                 <span class="text-xs text-slate-500">/ month</span>
               </div>
               <ul class="text-xs text-slate-700 space-y-2 pt-3 border-t border-slate-200">
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Real-time general ledger sync &amp; daily tracking</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Multi-user role-based access for financial team</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Seamless integration with QuickBooks &amp; Xero</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> 24/7 web accessibility from anywhere worldwide</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Real-time general ledger sync &amp; daily tracking</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Multi-user role-based access for financial team</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Seamless integration with QuickBooks &amp; Xero</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> 24/7 web accessibility from anywhere worldwide</li>
               </ul>
             </div>
             <button @click="openConsultationModal" class="mt-6 w-full py-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-xs transition-colors">
@@ -167,10 +167,10 @@
                 <span class="text-xs text-slate-500">/ month</span>
               </div>
               <ul class="text-xs text-slate-700 space-y-2 pt-3 border-t border-slate-200">
-                <li class="flex items-center gap-2"><span class="text-teal-600 font-bold">✓</span> 256-bit encrypted secure cloud repository</li>
-                <li class="flex items-center gap-2"><span class="text-teal-600 font-bold">✓</span> IRS audit-ready document indexing &amp; search</li>
-                <li class="flex items-center gap-2"><span class="text-teal-600 font-bold">✓</span> Automated receipt and vendor invoice ingestion</li>
-                <li class="flex items-center gap-2"><span class="text-teal-600 font-bold">✓</span> Instant CPA &amp; auditor export bundle generator</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-teal-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> 256-bit encrypted secure cloud repository</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-teal-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> IRS audit-ready document indexing &amp; search</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-teal-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Automated receipt and vendor invoice ingestion</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-teal-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> Instant CPA &amp; auditor export bundle generator</li>
               </ul>
             </div>
             <button @click="openConsultationModal" class="mt-6 w-full py-3 rounded-xl bg-teal-800 hover:bg-teal-900 text-white font-semibold text-xs transition-colors">
