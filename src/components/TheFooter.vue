@@ -8,9 +8,9 @@
         <div class="lg:col-span-2 space-y-4">
           <router-link to="/" class="inline-block" aria-label="Prudent Financial Homepage">
             <img 
-              src="/images/logo-white.svg" 
+              src="/images/prufininc-logo-white.png" 
               alt="Prudent Financial Services, Inc. (Prufininc)" 
-              class="h-10 w-auto object-contain"
+              class="h-14 w-auto object-contain"
             />
           </router-link>
           

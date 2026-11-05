@@ -31,12 +31,12 @@
     <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all duration-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         
-        <!-- Official Brand Logo Link -->
+        <!-- Official Brand Logo Link (prufininc.com) -->
         <router-link to="/" class="flex items-center gap-2 group py-1" aria-label="Prudent Financial Services, Inc. Homepage">
           <img 
-            src="/images/logo.svg" 
+            src="/images/prufininc-logo-transparent.png" 
             alt="Prudent Financial Services, Inc. (Prufininc)" 
-            class="h-10 sm:h-11 w-auto object-contain group-hover:opacity-90 transition-opacity"
+            class="h-12 sm:h-14 w-auto object-contain group-hover:scale-105 transition-transform"
           />
         </router-link>
 
@@ -94,7 +94,7 @@
     <div class="fixed top-0 right-0 w-80 max-w-[85vw] h-full bg-white z-50 shadow-2xl transform transition-transform duration-300 ease-in-out flex flex-col" :class="isDrawerOpen ? 'translate-x-0' : 'translate-x-full'">
       <div class="p-5 border-b border-slate-100 flex items-center justify-between">
         <router-link to="/" @click="isDrawerOpen = false" class="flex items-center gap-2">
-          <img src="/images/logo.svg" alt="Prudent Financial Logo" class="h-8 w-auto object-contain" />
+          <img src="/images/prufininc-logo-transparent.png" alt="Prudent Financial Logo" class="h-10 w-auto object-contain" />
         </router-link>
         <button @click="isDrawerOpen = false" aria-label="Close Mobile Menu" class="p-2 rounded-lg text-slate-400 hover:text-slate-700">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
