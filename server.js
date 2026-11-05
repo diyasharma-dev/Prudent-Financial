@@ -1,9 +1,14 @@
-// Lightweight zero-dependency development server for local preview
-const http = require('http');
-const fs = require('fs');
-const path = require('path');
+// Modern Lightweight Server for Prudent Financial Services, Inc. (Prufininc) - Vue.js Edition
+import http from 'http';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const PORT = process.env.PORT || 3000;
+const PUBLIC_DIR = fs.existsSync(path.join(__dirname, 'dist')) ? path.join(__dirname, 'dist') : __dirname;
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=utf-8',
@@ -25,13 +30,18 @@ const MIME_TYPES = {
 const server = http.createServer((req, res) => {
   let reqPath = req.url.split('?')[0];
 
-  // API endpoint simulation
+  // API endpoint for Contact / Consultation submissions
   if (reqPath === '/api/contact' && req.method === 'POST') {
     let body = '';
     req.on('data', chunk => { body += chunk; });
     req.on('end', () => {
       res.writeHead(200, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({ success: true, message: 'Message received by Prudent Financial Services local server.' }));
+      res.end(JSON.stringify({
+        success: true,
+        message: 'Consultation request received by Prudent Financial Services, Inc.',
+        refId: 'PRU-' + Math.floor(100000 + Math.random() * 900000),
+        timestamp: new Date().toISOString()
+      }));
     });
     return;
   }
@@ -41,46 +51,29 @@ const server = http.createServer((req, res) => {
     reqPath = '/index.html';
   }
 
-  // Handle clean URLs (e.g., /about -> /about.html)
-  let filePath = path.join(__dirname, reqPath);
-  if (!path.extname(filePath)) {
+  let filePath = path.join(PUBLIC_DIR, reqPath);
+
+  // If file doesn't exist directly, check if it's an asset or SPA route
+  if (!fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) {
+    // Check if clean URL file exists
     if (fs.existsSync(filePath + '.html')) {
       filePath += '.html';
+    } else {
+      // SPA Fallback: serve index.html for Vue Router history mode
+      filePath = path.join(PUBLIC_DIR, 'index.html');
     }
   }
 
   fs.stat(filePath, (err, stats) => {
     if (err || !stats.isFile()) {
-      // 404 handler with site navigation links
       res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
       res.end(`
         <!DOCTYPE html>
         <html lang="en">
-        <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>404 - Page Not Found | Prudent Financial Services, Inc.</title>
-          <script src="https://cdn.tailwindcss.com"></script>
-        </head>
-        <body class="bg-slate-50 text-slate-800 min-h-screen flex items-center justify-center p-6 font-sans">
-          <div class="max-w-md w-full bg-white rounded-3xl p-8 shadow-xl border border-slate-200 text-center space-y-5">
-            <div class="w-16 h-16 rounded-2xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-2xl mx-auto">
-              404
-            </div>
-            <h2 class="text-2xl font-bold text-slate-900">Page Not Found</h2>
-            <p class="text-sm text-slate-600">The requested page does not exist or has moved. Explore our core sections:</p>
-            <div class="grid grid-cols-2 gap-2 text-xs font-semibold">
-              <a href="/index.html" class="p-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Home</a>
-              <a href="/about.html" class="p-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">About Us</a>
-              <a href="/outsourcing.html" class="p-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Outsourcing</a>
-              <a href="/services.html" class="p-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Services</a>
-              <a href="/consulting.html" class="p-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Consulting</a>
-              <a href="/pricing.html" class="p-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Pricing</a>
-            </div>
-            <a href="/index.html" class="inline-block w-full py-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-sm shadow transition-all">
-              Return to Homepage →
-            </a>
-          </div>
+        <head><title>404 - Page Not Found</title></head>
+        <body style="font-family:sans-serif;text-align:center;padding:50px;">
+          <h2>404 - Page Not Found</h2>
+          <a href="/">Return to Homepage</a>
         </body>
         </html>
       `);
@@ -102,8 +95,9 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, () => {
   console.log(`=======================================================`);
-  console.log(`Prudent Financial Services, Inc. (Prufininc) Web Server`);
+  console.log(`Prudent Financial Services, Inc. (Prufininc) Vue 3 App`);
   console.log(`Serving on: http://localhost:${PORT}`);
+  console.log(`Static root: ${PUBLIC_DIR}`);
   console.log(`Press Ctrl+C to terminate`);
   console.log(`=======================================================`);
 });

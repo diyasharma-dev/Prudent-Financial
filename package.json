@@ -2,11 +2,14 @@
   "name": "prufininc-website",
   "version": "1.0.0",
   "description": "Prudent Financial Services, Inc. (Prufininc) - Modern Accounting & Bookkeeping Corporate Website",
+  "type": "module",
   "main": "server.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "start": "node server.js",
-    "preview": "node server.js",
-    "deploy:pages": "npx wrangler pages deploy . --project-name=prufininc",
+    "deploy:pages": "npx wrangler pages deploy dist --project-name=prufininc",
     "deploy:worker": "npx wrangler deploy"
   },
   "keywords": [
@@ -20,5 +23,11 @@
     "financial-services"
   ],
   "author": "Prudent Financial Services, Inc.",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "vite": "^8.3.6",
+    "vue": "^3.5.45",
+    "vue-router": "^5.4.0"
+  }
 }

@@ -63,6 +63,12 @@ export default {
     let response;
     if (env.ASSETS) {
       response = await env.ASSETS.fetch(request);
+      // SPA Fallback: If route returns 404 and is not an asset file with extension, serve index.html
+      if (response.status === 404 && !path.includes('.')) {
+        const spaUrl = new URL(request.url);
+        spaUrl.pathname = '/index.html';
+        response = await env.ASSETS.fetch(new Request(spaUrl.toString(), request));
+      }
     } else {
       response = await fetch(request);
     }
