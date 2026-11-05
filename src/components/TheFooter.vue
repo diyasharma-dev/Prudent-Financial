@@ -10,7 +10,7 @@
             <img 
               src="/images/prufininc-logo-white.png" 
               alt="Prudent Financial Services, Inc. (Prufininc)" 
-              class="h-14 w-auto object-contain"
+              class="h-20 sm:h-24 w-auto object-contain"
             />
           </router-link>
           

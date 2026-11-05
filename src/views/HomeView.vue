@@ -13,16 +13,16 @@
           <!-- Left Hero Content -->
           <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
             <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100/80 border border-emerald-300 text-emerald-900 text-xs font-semibold tracking-wide shadow-sm">
-              <span class="w-2.5 h-2.5 rounded-full bg-emerald-600 animate-pulse"></span>
-              <span>Complete Outsourced Financial Services for SMEs ($250K – $20M)</span>
+              <span class="w-2 h-2 rounded-full bg-emerald-600"></span>
+              <span>US CPA Leadership • 24/7 Dual-Shore Delivery</span>
             </div>
 
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight font-heading leading-[1.12]">
-              High-Performance <span class="gradient-text-emerald">Bookkeeping & Tax Strategy</span> For Growing Businesses
+              High-Performance <span class="gradient-text-emerald">Bookkeeping &amp; Tax Strategy</span> For Growing Businesses
             </h1>
 
             <p class="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              <strong>Prudent Financial Services, Inc. (Prufininc)</strong> delivers comprehensive outsourced bookkeeping, managerial financial reporting, taxation, 247Bookkeeper™, and 247eCabinet™ paperless systems. Combining cost-effective data management with expert US CPA review.
+              Empowering small and mid-sized businesses with institutional-grade accounting, proactive tax planning, and daily balanced books — eliminating administrative burden while reducing operational overhead by up to 50%.
             </p>
 
             <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
@@ -78,7 +78,7 @@
                   <!-- In-Image Header Pill -->
                   <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
                     <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/80 backdrop-blur-md text-white text-xs font-semibold border border-white/20">
-                      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                      <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
                       US CPA Supervision
                     </span>
                     <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-emerald-600/90 backdrop-blur-md text-white text-xs font-semibold">

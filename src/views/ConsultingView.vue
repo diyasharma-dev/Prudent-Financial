@@ -7,7 +7,7 @@
           
           <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
             <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold uppercase tracking-wider">
-              <span class="w-2.5 h-2.5 rounded-full bg-emerald-600 animate-pulse"></span>
+              <span class="w-2 h-2 rounded-full bg-emerald-600"></span>
               Prudent Financial Advisory &amp; Consulting
             </div>
             
