@@ -13,12 +13,12 @@ export default {
       try {
         const body = await request.json();
         
-        // Log in worker execution logs
         console.log('Received consultation inquiry for Prufininc:', body);
 
         return new Response(JSON.stringify({
           success: true,
           message: 'Thank you for reaching out to Prudent Financial Services, Inc. A senior accountant will review your details and contact you shortly.',
+          refId: body.refId || ('PRU-' + Math.floor(100000 + Math.random() * 900000)),
           timestamp: new Date().toISOString()
         }), {
           status: 200,
@@ -39,8 +39,8 @@ export default {
     }
 
     // Rewrite clean URLs to .html files if needed
-    // e.g. /about -> /about.html, /services -> /services.html
-    const cleanPages = ['about', 'services', 'industries', 'how-it-works', 'pricing', 'contact'];
+    // e.g. /about -> /about.html, /247bookkeeper -> /247bookkeeper.html
+    const cleanPages = ['about', 'services', 'industries', 'how-it-works', 'pricing', 'contact', '247bookkeeper', '247ecabinet'];
     const trimmedPath = path.replace(/^\/|\/$/g, '');
 
     if (cleanPages.includes(trimmedPath)) {
