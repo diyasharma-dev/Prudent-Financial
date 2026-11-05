@@ -176,7 +176,7 @@
               <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex items-start gap-3">
                 <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-sm shrink-0">✓</div>
                 <div>
-                  <h4 class="text-sm font-bold text-slate-900">Full-Cycle Bookkeeping</h4>
+                  <h4 class="text-sm font-bold text-slate-900">Daily Ledger &amp; Reconciliations</h4>
                   <p class="text-xs text-slate-600 mt-0.5">AP/AR, bank reconciliation &amp; GL</p>
                 </div>
               </div>
