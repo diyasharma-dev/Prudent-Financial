@@ -1,15 +1,16 @@
 <template>
   <div>
-    <!-- Header -->
-    <section class="py-16 lg:py-24 bg-gradient-to-b from-emerald-900 to-navy-950 text-white relative">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-        <span class="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-semibold uppercase tracking-wider">
+    <!-- Header with Architectural Visual Backdrop -->
+    <section class="py-16 lg:py-24 relative overflow-hidden bg-emerald-950 text-white" style="background: linear-gradient(135deg, #022c22 0%, #064e3b 60%, #0f172a 100%) !important;">
+      <img src="/images/ny-skyline.jpg" alt="New York Accounting Rates" class="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-25" />
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 space-y-4">
+        <span class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 text-xs font-semibold uppercase tracking-wider">
           Transparent Predictable Rates
         </span>
         <h1 class="text-4xl sm:text-5xl font-extrabold font-heading text-white tracking-tight">
           Flat-Rate Monthly Pricing with Zero Hidden Fees
         </h1>
-        <p class="text-slate-300 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
+        <p class="text-slate-200 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
           No long-term contracts. No payroll tax burden. Just audit-ready books, dedicated account management, and up to 60% savings compared to in-house staffing.
         </p>
       </div>
@@ -18,7 +19,7 @@
     <!-- Pricing Cards -->
     <section class="py-20 bg-slate-50 border-b border-slate-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
           
           <!-- Tier 1: Starter -->
           <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm space-y-6 flex flex-col justify-between hover:border-emerald-500 transition-all">
@@ -35,8 +36,8 @@
               
               <ul class="text-xs text-slate-600 space-y-2.5 pt-4 border-t border-slate-100">
                 <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Monthly general ledger balancing</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Up to 2 bank & credit card accounts</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Monthly Balance Sheet & P&L</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Up to 2 bank &amp; credit card accounts</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Monthly Balance Sheet &amp; P&amp;L</li>
                 <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> 247eCabinet document storage</li>
               </ul>
             </div>
@@ -63,9 +64,9 @@
               <p class="text-xs text-slate-300">For businesses generating $500K - $3M with active weekly transaction volume.</p>
               
               <ul class="text-xs text-slate-200 space-y-2.5 pt-4 border-t border-emerald-800">
-                <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Weekly transaction coding & reconciliation</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Up to 5 bank, card & merchant accounts</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Full Accounts Payable & Receivable tracking</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Weekly transaction coding &amp; reconciliation</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Up to 5 bank, card &amp; merchant accounts</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Full Accounts Payable &amp; Receivable tracking</li>
                 <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Dedicated New York Account Manager</li>
                 <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">✓</span> Monthly CPA financial review session</li>
               </ul>
@@ -89,10 +90,10 @@
               <p class="text-xs text-slate-600">For companies $3M - $20M requiring daily accounting operations and CFO advisory.</p>
               
               <ul class="text-xs text-slate-600 space-y-2.5 pt-4 border-t border-slate-100">
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Daily ledger postings & cash tracking</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Unlimited bank & credit accounts</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> 13-week rolling cash flow & budget modeling</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Full payroll tax compliance & W-2/1099 filings</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Daily ledger postings &amp; cash tracking</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Unlimited bank &amp; credit accounts</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> 13-week rolling cash flow &amp; budget modeling</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Full payroll tax compliance &amp; W-2/1099 filings</li>
                 <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Bi-weekly executive strategy briefing</li>
               </ul>
             </div>
