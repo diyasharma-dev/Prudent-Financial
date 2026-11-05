@@ -21,7 +21,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm relative group h-48">
-            <img src="/images/accountant-desk.jpg" alt="Full-Cycle Bookkeeping" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <img src="/images/bookkeeping-sheets.jpg" alt="Full-Cycle Bookkeeping" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/30 to-transparent"></div>
             <div class="absolute bottom-4 left-5 text-white">
               <span class="text-xs text-emerald-400 font-bold uppercase">Core Practice</span>

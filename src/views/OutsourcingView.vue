@@ -53,7 +53,7 @@
           <div class="lg:col-span-5 relative">
             <div class="relative mx-auto max-w-md lg:max-w-none">
               <div class="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-white group">
-                <img src="/images/accountant-desk.jpg" alt="Outsourced Accounting Precision" class="w-full h-80 sm:h-96 object-cover object-center group-hover:scale-105 transition-transform duration-700" />
+                <img src="/images/financial-growth.jpg" alt="Outsourced Accounting Financial Growth" class="w-full h-80 sm:h-96 object-cover object-center group-hover:scale-105 transition-transform duration-700" />
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent"></div>
                 <div class="absolute bottom-4 left-5 right-5 text-white">
                   <div class="text-xs text-emerald-300 font-bold uppercase tracking-wider">Dual-Shore Workflow</div>

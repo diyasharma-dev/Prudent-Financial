@@ -2,7 +2,7 @@
   <div>
     <!-- Header with Architectural Visual Backdrop -->
     <section class="py-16 lg:py-24 relative overflow-hidden bg-emerald-950 text-white" style="background: linear-gradient(135deg, #022c22 0%, #064e3b 60%, #0f172a 100%) !important;">
-      <img src="/images/ny-skyline.jpg" alt="New York Accounting Rates" class="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-25" />
+      <img src="/images/office-conference.jpg" alt="Prudent Corporate Pricing" class="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-25" />
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 space-y-4">
         <span class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 text-xs font-semibold uppercase tracking-wider">
           Transparent Predictable Rates
@@ -102,6 +102,81 @@
             </button>
           </div>
 
+        </div>
+      </div>
+    </section>
+
+    <!-- Standalone Proprietary Software & Technology Access (Original prufininc.com Offerings) -->
+    <section class="py-16 bg-white border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+          <span class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider">
+            Proprietary Technology Platforms
+          </span>
+          <h2 class="text-3xl font-extrabold text-slate-900 font-heading">
+            Standalone Cloud Software &amp; Tool Subscriptions
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base">
+            Prefer to handle bookkeeping internally or with your CPA, but need our secure infrastructure? Subscribe directly to our proprietary systems.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <!-- 247Bookkeeper Standalone -->
+          <div class="bg-gradient-to-br from-slate-50 to-emerald-50/40 rounded-2xl p-7 border border-emerald-200 shadow-sm flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold">Web-Based Portal</span>
+                <span class="text-xs text-slate-500 font-medium">Billed Monthly</span>
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold font-heading text-slate-900">247Bookkeeper™ Platform</h3>
+                <p class="text-xs text-slate-600 mt-1">State-of-the-art web-based system for outsourced bookkeeping and workflow tracking.</p>
+              </div>
+              <div class="flex items-baseline gap-1.5 pt-2">
+                <span class="text-xs text-slate-500 font-semibold">Starting from</span>
+                <span class="text-3xl font-extrabold text-emerald-700 font-heading">$299</span>
+                <span class="text-xs text-slate-500">/ month</span>
+              </div>
+              <ul class="text-xs text-slate-700 space-y-2 pt-3 border-t border-slate-200">
+                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Real-time general ledger sync &amp; daily tracking</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Multi-user role-based access for financial team</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Seamless integration with QuickBooks &amp; Xero</li>
+                <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> 24/7 web accessibility from anywhere worldwide</li>
+              </ul>
+            </div>
+            <button @click="openConsultationModal" class="mt-6 w-full py-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-xs transition-colors">
+              Request 247Bookkeeper™ Access
+            </button>
+          </div>
+
+          <!-- 247eCabinet Standalone -->
+          <div class="bg-gradient-to-br from-slate-50 to-teal-50/40 rounded-2xl p-7 border border-teal-200 shadow-sm flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full bg-teal-100 text-teal-800 text-xs font-bold">Document Vault</span>
+                <span class="text-xs text-slate-500 font-medium">Billed Monthly</span>
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold font-heading text-slate-900">247eCabinet™ Digital Archive</h3>
+                <p class="text-xs text-slate-600 mt-1">Encrypted digital paperless filing system for invoices, bank records &amp; receipts.</p>
+              </div>
+              <div class="flex items-baseline gap-1.5 pt-2">
+                <span class="text-xs text-slate-500 font-semibold">Starting from</span>
+                <span class="text-3xl font-extrabold text-teal-700 font-heading">$29.95</span>
+                <span class="text-xs text-slate-500">/ month</span>
+              </div>
+              <ul class="text-xs text-slate-700 space-y-2 pt-3 border-t border-slate-200">
+                <li class="flex items-center gap-2"><span class="text-teal-600 font-bold">✓</span> 256-bit encrypted secure cloud repository</li>
+                <li class="flex items-center gap-2"><span class="text-teal-600 font-bold">✓</span> IRS audit-ready document indexing &amp; search</li>
+                <li class="flex items-center gap-2"><span class="text-teal-600 font-bold">✓</span> Automated receipt and vendor invoice ingestion</li>
+                <li class="flex items-center gap-2"><span class="text-teal-600 font-bold">✓</span> Instant CPA &amp; auditor export bundle generator</li>
+              </ul>
+            </div>
+            <button @click="openConsultationModal" class="mt-6 w-full py-3 rounded-xl bg-teal-800 hover:bg-teal-900 text-white font-semibold text-xs transition-colors">
+              Get 247eCabinet™ Vault
+            </button>
+          </div>
         </div>
       </div>
     </section>

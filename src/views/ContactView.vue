@@ -1,15 +1,16 @@
 <template>
   <div>
-    <!-- Header -->
-    <section class="py-16 lg:py-24 bg-gradient-to-b from-emerald-900 to-navy-950 text-white relative">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-        <span class="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-semibold uppercase tracking-wider">
+    <!-- Header with Architectural Visual Backdrop -->
+    <section class="py-16 lg:py-24 relative overflow-hidden bg-emerald-950 text-white" style="background: linear-gradient(135deg, #022c22 0%, #064e3b 60%, #0f172a 100%) !important;">
+      <img src="/images/ny-skyline.jpg" alt="New York Accounting Headquarters" class="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-25" />
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 space-y-4">
+        <span class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 text-xs font-semibold uppercase tracking-wider">
           Direct Accounting Support
         </span>
-        <h1 class="text-4xl sm:text-5xl font-extrabold font-heading text-white tracking-tight">
+        <h1 class="text-4xl sm:text-5xl font-extrabold font-heading text-white tracking-tight drop-shadow-sm">
           Connect With Our Senior Accounting Team
         </h1>
-        <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+        <p class="text-slate-200 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
           Headquartered in Forest Hills, New York with 24/7 technical delivery hubs in India. We are here to answer your questions and optimize your books.
         </p>
       </div>
@@ -57,6 +58,7 @@
               </p>
               <div class="space-y-1.5 pt-2 border-t border-slate-200 text-xs text-slate-700">
                 <p><strong>Tel:</strong> <a href="tel:+914023543811" class="text-emerald-700 font-semibold hover:underline">+91 40 2354 3811</a></p>
+                <p><strong>Fax:</strong> +91 40 6663 2004</p>
                 <p><strong>Operations:</strong> Continuous 24/7 ledger processing</p>
               </div>
             </div>

@@ -456,7 +456,7 @@
           <!-- Service Card 1 -->
           <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all">
             <div class="h-44 overflow-hidden relative">
-              <img src="/images/accountant-desk.jpg" alt="Outsourced Bookkeeping" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <img src="/images/bookkeeping-sheets.jpg" alt="Outsourced Bookkeeping" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 to-transparent"></div>
               <h3 class="absolute bottom-3 left-4 text-white font-bold font-heading text-lg">Full-Cycle Bookkeeping</h3>
             </div>
