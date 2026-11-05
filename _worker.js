@@ -39,8 +39,19 @@ export default {
     }
 
     // Rewrite clean URLs to .html files if needed
-    // e.g. /about -> /about.html, /247bookkeeper -> /247bookkeeper.html
-    const cleanPages = ['about', 'services', 'industries', 'how-it-works', 'pricing', 'contact', '247bookkeeper', '247ecabinet'];
+    // e.g. /about -> /about.html, /outsourcing -> /outsourcing.html
+    const cleanPages = [
+      'about',
+      'outsourcing',
+      'services',
+      'consulting',
+      'pricing',
+      'contact',
+      '247bookkeeper',
+      '247ecabinet',
+      'industries',
+      'how-it-works'
+    ];
     const trimmedPath = path.replace(/^\/|\/$/g, '');
 
     if (cleanPages.includes(trimmedPath)) {

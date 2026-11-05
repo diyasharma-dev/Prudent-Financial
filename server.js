@@ -51,16 +51,36 @@ const server = http.createServer((req, res) => {
 
   fs.stat(filePath, (err, stats) => {
     if (err || !stats.isFile()) {
-      // 404 handler
+      // 404 handler with site navigation links
       res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
       res.end(`
         <!DOCTYPE html>
         <html lang="en">
-        <head><title>404 Not Found - Prudent Financial</title><style>body{font-family:sans-serif;text-align:center;padding:50px;color:#333;}</style></head>
-        <body>
-          <h2>404 - Page Not Found</h2>
-          <p>The requested file does not exist.</p>
-          <a href="/">Back to Homepage</a>
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>404 - Page Not Found | Prudent Financial Services, Inc.</title>
+          <script src="https://cdn.tailwindcss.com"></script>
+        </head>
+        <body class="bg-slate-50 text-slate-800 min-h-screen flex items-center justify-center p-6 font-sans">
+          <div class="max-w-md w-full bg-white rounded-3xl p-8 shadow-xl border border-slate-200 text-center space-y-5">
+            <div class="w-16 h-16 rounded-2xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-2xl mx-auto">
+              404
+            </div>
+            <h2 class="text-2xl font-bold text-slate-900">Page Not Found</h2>
+            <p class="text-sm text-slate-600">The requested page does not exist or has moved. Explore our core sections:</p>
+            <div class="grid grid-cols-2 gap-2 text-xs font-semibold">
+              <a href="/index.html" class="p-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Home</a>
+              <a href="/about.html" class="p-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">About Us</a>
+              <a href="/outsourcing.html" class="p-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Outsourcing</a>
+              <a href="/services.html" class="p-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Services</a>
+              <a href="/consulting.html" class="p-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Consulting</a>
+              <a href="/pricing.html" class="p-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors">Pricing</a>
+            </div>
+            <a href="/index.html" class="inline-block w-full py-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-sm shadow transition-all">
+              Return to Homepage →
+            </a>
+          </div>
         </body>
         </html>
       `);

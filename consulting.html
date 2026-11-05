@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial & Business Consulting | Prudent Financial Services, Inc.</title>
+  <meta name="description" content="Strategic financial consulting for SMEs: Financial analysis, cash flow & budgetary forecasting, QuickBooks setup, business acquisition/sale advisory, and Virtual CFO services.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            emerald: {
+              50: '#ecfdf5',
+              100: '#d1fae5',
+              200: '#a7f3d0',
+              300: '#6ee7b7',
+              400: '#34d399',
+              500: '#10b981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065f46',
+              900: '#064e3b',
+              950: '#022c22',
+            },
+            navy: {
+              800: '#1e293b',
+              900: '#0f172a',
+              950: '#020617',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            heading: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    .gradient-cta {
+      background: linear-gradient(135deg, #022c22 0%, #064e3b 50%, #0f172a 100%) !important;
+    }
+    .gradient-hero-dark {
+      background: linear-gradient(135deg, #0f172a 0%, #064e3b 50%, #0f172a 100%) !important;
+    }
+  </style>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23047857'><path d='M12 2L2 7l10 5 10-5-10-5zm0 8.5L4.5 7 12 3.5 19.5 7 12 10.5zm-8 4.2V19l8 4 8-4v-4.3l-8 4-8-4z'/></svg>">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-emerald-500 selection:text-white">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-navy-950 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-4 flex-wrap justify-center">
+        <span class="inline-flex items-center gap-1.5 text-emerald-400 font-medium">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+          Now Onboarding Growing SMEs ($250K - $20M Gross Revenue)
+        </span>
+        <span class="hidden lg:inline text-slate-500">•</span>
+        <span class="hidden lg:inline">Forest Hills, NY Headquarters • 24/7 Global Delivery</span>
+      </div>
+      <div class="flex items-center gap-5">
+        <a href="tel:+17182614001" class="hover:text-emerald-400 transition-colors flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          <span>USA: +1 (718) 261-4001</span>
+        </a>
+        <a href="tel:+914023543811" class="hover:text-emerald-400 transition-colors hidden sm:flex items-center gap-1.5">
+          <span>IND: +91 40 2354 3811</span>
+        </a>
+        <a href="mailto:info@prufininc.com" class="hover:text-emerald-400 transition-colors flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          <span>info@prufininc.com</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header id="mainHeader" class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 transition-all duration-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-800 flex items-center justify-center text-white shadow-md shadow-emerald-700/20 group-hover:scale-105 transition-transform">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+          </svg>
+        </div>
+        <div>
+          <div class="flex items-center gap-1.5">
+            <span class="font-heading font-extrabold text-xl tracking-tight text-slate-900 group-hover:text-emerald-700 transition-colors">PRUDENT</span>
+            <span class="text-xs font-semibold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800 tracking-wide uppercase">Prufininc</span>
+          </div>
+          <span class="block text-[11px] font-medium tracking-wider text-slate-500 uppercase -mt-0.5">Financial Services, Inc.</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu (Matching Original Prufininc Navigation) -->
+      <nav class="hidden lg:flex items-center gap-6">
+        <a href="index.html" class="text-sm font-medium text-slate-600 hover:text-emerald-700 transition-colors">Home</a>
+        <a href="about.html" class="text-sm font-medium text-slate-600 hover:text-emerald-700 transition-colors">About Us</a>
+        <a href="outsourcing.html" class="text-sm font-medium text-slate-600 hover:text-emerald-700 transition-colors">Outsourcing</a>
+        <a href="services.html" class="text-sm font-medium text-slate-600 hover:text-emerald-700 transition-colors">Services</a>
+        <a href="consulting.html" class="text-sm font-semibold text-emerald-700 border-b-2 border-emerald-600 pb-0.5">Consulting</a>
+        <a href="pricing.html" class="text-sm font-medium text-slate-600 hover:text-emerald-700 transition-colors">Pricing</a>
+        
+        <!-- Portals Dropdown -->
+        <div class="relative group">
+          <button class="text-sm font-medium text-slate-600 hover:text-emerald-700 transition-colors flex items-center gap-1 py-2">
+            <span>Portals</span>
+            <svg class="w-3.5 h-3.5 transition-transform group-hover:rotate-180 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="absolute top-full left-0 w-56 bg-white rounded-xl shadow-xl border border-slate-100 p-2 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+            <a href="247bookkeeper.html" class="block px-3 py-2 rounded-lg text-xs font-semibold text-slate-800 hover:bg-emerald-50 hover:text-emerald-800">
+              <span class="block text-emerald-700">247Bookkeeper™</span>
+              <span class="text-[11px] text-slate-500 font-normal">Real-time accounting dashboard</span>
+            </a>
+            <a href="247ecabinet.html" class="block px-3 py-2 rounded-lg text-xs font-semibold text-slate-800 hover:bg-emerald-50 hover:text-emerald-800">
+              <span class="block text-emerald-700">247eCabinet™</span>
+              <span class="text-[11px] text-slate-500 font-normal">Encrypted 256-bit document vault</span>
+            </a>
+          </div>
+        </div>
+
+        <a href="contact.html" class="text-sm font-medium text-slate-600 hover:text-emerald-700 transition-colors">Contact</a>
+      </nav>
+
+      <!-- Header CTAs -->
+      <div class="hidden lg:flex items-center gap-3">
+        <button data-open-modal="portalModal" class="px-3.5 py-2 text-xs font-semibold text-slate-700 hover:text-emerald-800 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors flex items-center gap-1.5">
+          <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"/></svg>
+          <span>Client Login</span>
+        </button>
+        <button data-open-modal="consultationModal" class="px-4 py-2.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-medium text-sm shadow-md shadow-emerald-700/20 transition-all flex items-center gap-2">
+          <span>Free Consultation</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </button>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenuBtn" aria-label="Open Mobile Menu" class="lg:hidden p-2 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Backdrop & Menu -->
+  <div id="drawerBackdrop" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-50 hidden"></div>
+  <div id="mobileDrawer" class="fixed top-0 right-0 w-80 max-w-[85vw] h-full bg-white z-50 shadow-2xl transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col">
+    <div class="p-5 border-b border-slate-100 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-9 h-9 rounded-lg bg-emerald-700 text-white flex items-center justify-center font-bold">P</div>
+        <span class="font-heading font-bold text-slate-900">Prudent Financial</span>
+      </div>
+      <button id="closeMobileMenu" aria-label="Close Mobile Menu" class="p-2 rounded-lg text-slate-400 hover:text-slate-700">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="p-5 flex-1 overflow-y-auto space-y-2">
+      <a href="index.html" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50">Home</a>
+      <a href="about.html" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50">About Us</a>
+      <a href="outsourcing.html" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50">Outsourcing</a>
+      <a href="services.html" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50">Services</a>
+      <a href="consulting.html" class="block px-3 py-2.5 rounded-lg text-sm font-semibold bg-emerald-50 text-emerald-800">Consulting</a>
+      <a href="pricing.html" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50">Pricing</a>
+      
+      <div class="pt-3 border-t border-slate-100">
+        <span class="px-3 text-[11px] font-semibold text-slate-400 uppercase tracking-wider block mb-1">Proprietary Portals</span>
+        <a href="247bookkeeper.html" class="block px-3 py-2 rounded-lg text-xs font-medium text-slate-700 hover:bg-slate-50">247Bookkeeper™ System</a>
+        <a href="247ecabinet.html" class="block px-3 py-2 rounded-lg text-xs font-medium text-slate-700 hover:bg-slate-50">247eCabinet™ Vault</a>
+      </div>
+
+      <a href="contact.html" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50">Contact Us</a>
+    </div>
+    <div class="p-5 border-t border-slate-100 space-y-2.5 bg-slate-50">
+      <button data-open-modal="portalModal" class="w-full py-2.5 px-4 rounded-xl text-xs font-semibold text-slate-700 bg-white border border-slate-200 shadow-sm flex items-center justify-center gap-2">
+        <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"/></svg>
+        <span>Client Login</span>
+      </button>
+      <button data-open-modal="consultationModal" class="w-full py-2.5 px-4 rounded-xl text-xs font-semibold text-white bg-emerald-700 hover:bg-emerald-800 shadow-sm">
+        Request Free Consultation
+      </button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="relative pt-16 pb-20 bg-gradient-to-b from-emerald-900/5 via-white to-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto space-y-5">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold uppercase tracking-wider">
+          <span class="w-2 h-2 rounded-full bg-emerald-600"></span>
+          Prudent Financial Advisory & Consulting
+        </div>
+        
+        <h1 class="text-3xl sm:text-5xl font-extrabold font-heading text-slate-900 tracking-tight leading-tight">
+          Strategic Business & Financial Consulting for <span class="text-emerald-700">Growing SMEs</span>
+        </h1>
+        
+        <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+          From diagnostic financial analysis and 13-week cash flow modeling to QuickBooks system overhauls and business acquisition due diligence, Prudent equips business owners with the insights needed to maximize profitability and eliminate costly blind spots.
+        </p>
+
+        <div class="flex flex-wrap items-center justify-center gap-4 pt-2">
+          <button data-open-modal="consultationModal" class="px-6 py-3.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-sm shadow-lg shadow-emerald-700/20 transition-all flex items-center gap-2">
+            <span>Book Free 30-Min Diagnostic</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </button>
+          <a href="#consulting-pillars" class="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 font-semibold text-sm border border-slate-300 shadow-sm transition-all flex items-center gap-2">
+            <span>Explore Practice Areas</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+          </a>
+        </div>
+
+        <div class="pt-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-left border-t border-slate-200/80 mt-8">
+          <div class="bg-white p-4 rounded-xl border border-slate-200/60 shadow-sm">
+            <div class="text-2xl font-black font-heading text-emerald-700">13-Week</div>
+            <div class="text-xs font-medium text-slate-600 mt-1">Rolling Cash Flow Models</div>
+          </div>
+          <div class="bg-white p-4 rounded-xl border border-slate-200/60 shadow-sm">
+            <div class="text-2xl font-black font-heading text-slate-900">Certified</div>
+            <div class="text-xs font-medium text-slate-600 mt-1">QuickBooks ProAdvisors</div>
+          </div>
+          <div class="bg-white p-4 rounded-xl border border-slate-200/60 shadow-sm">
+            <div class="text-2xl font-black font-heading text-emerald-700">M&A Ready</div>
+            <div class="text-xs font-medium text-slate-600 mt-1">Due Diligence & Valuation</div>
+          </div>
+          <div class="bg-white p-4 rounded-xl border border-slate-200/60 shadow-sm">
+            <div class="text-2xl font-black font-heading text-slate-900">Virtual CFO</div>
+            <div class="text-xs font-medium text-slate-600 mt-1">Senior Advisory on Demand</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: Core Consulting Practice Areas -->
+  <section id="consulting-pillars" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-14">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <span class="text-xs font-bold text-emerald-700 uppercase tracking-wider">Practice Areas</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold font-heading text-slate-900">
+          Tailored Consulting Solutions for Every Business Stage
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base">
+          Our senior accountants and financial consultants bring decades of real-world experience guiding companies from $250K to $20M through key strategic decisions.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Pillar 1: Financial Analysis -->
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8 space-y-4 hover:border-emerald-500 transition-all">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-2xl">
+              🔍
+            </div>
+            <div>
+              <h3 class="font-heading font-bold text-lg text-slate-900">Financial Analysis & Managerial Review</h3>
+              <p class="text-xs text-emerald-700 font-semibold">Transform raw numbers into actionable profit drivers</p>
+            </div>
+          </div>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Our experienced staff assists management in evaluating underlying performance metrics to uncover hidden costs and capitalize on highest-margin lines.
+          </p>
+          <ul class="space-y-2 text-xs sm:text-sm text-slate-700 pt-2 border-t border-slate-200">
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Gross Margin, EBITDA, and Unit Economics Benchmarking</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Overhead & Operating Expense (OpEx) Efficiency Audits</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Product, Service Line, and Customer Profitability Ranking</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Monthly Managerial KPI Scorecards & Executive Dashboards</li>
+          </ul>
+        </div>
+
+        <!-- Pillar 2: Cash Flow & Budgetary Analysis -->
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8 space-y-4 hover:border-emerald-500 transition-all">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-2xl">
+              💰
+            </div>
+            <div>
+              <h3 class="font-heading font-bold text-lg text-slate-900">Cash Flow & Budgeting Analysis</h3>
+              <p class="text-xs text-emerald-700 font-semibold">Prevent liquidity shortfalls before they occur</p>
+            </div>
+          </div>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Profitable businesses often fail due to sudden cash flow crunches. We help you project accurate financing needs and monitor sources and uses of cash.
+          </p>
+          <ul class="space-y-2 text-xs sm:text-sm text-slate-700 pt-2 border-t border-slate-200">
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> 13-Week Rolling Cash Flow & Liquidity Forecasting</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Annual Operating Budget (AOP) Creation & Variance Alerts</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Working Capital & Inventory Cash Cycle Optimization</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Bank Covenant Compliance & Debt Amortization Schedules</li>
+          </ul>
+        </div>
+
+        <!-- Pillar 3: Accounting Software & Computer Consulting -->
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8 space-y-4 hover:border-emerald-500 transition-all">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-2xl">
+              💻
+            </div>
+            <div>
+              <h3 class="font-heading font-bold text-lg text-slate-900">QuickBooks & Accounting Software Consulting</h3>
+              <p class="text-xs text-emerald-700 font-semibold">Clean architecture, automation, and error-free setups</p>
+            </div>
+          </div>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Stop fighting with corrupted files or disorganized charts of accounts. We optimize QuickBooks, Xero, and Sage so your system runs effortlessly.
+          </p>
+          <ul class="space-y-2 text-xs sm:text-sm text-slate-700 pt-2 border-t border-slate-200">
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> QuickBooks Online / Desktop Setup, Migration, and Cleanup</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Custom Chart of Accounts Tailored to Your Industry</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> 3rd-Party Integrations: Bill.com, Gusto, Stripe, Shopify, Expensify</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Staff Training & Computer Systems Workflow Support</li>
+          </ul>
+        </div>
+
+        <!-- Pillar 4: Buying and Selling a Business -->
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8 space-y-4 hover:border-emerald-500 transition-all">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-2xl">
+              🤝
+            </div>
+            <div>
+              <h3 class="font-heading font-bold text-lg text-slate-900">Buying & Selling a Business (M&A Advisory)</h3>
+              <p class="text-xs text-emerald-700 font-semibold">Maximize enterprise value and verify every dollar</p>
+            </div>
+          </div>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Structuring an acquisition or disposition requires meticulous financial due diligence to protect your capital and minimize tax consequences.
+          </p>
+          <ul class="space-y-2 text-xs sm:text-sm text-slate-700 pt-2 border-t border-slate-200">
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Buy-Side Financial Due Diligence & Quality of Earnings (QofE)</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Sell-Side Book Readiness & Valuation Multiple Enhancement</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Asset vs. Stock Purchase Tax Structuring Guidance</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✓</span> Post-Closing Accounting Harmonization & Balance Sheet True-Up</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 2: Virtual CFO & Controller Solutions -->
+  <section class="py-16 bg-navy-950 text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 relative z-10">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="space-y-5">
+          <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Executive Leadership</span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold font-heading text-white leading-tight">
+            Virtual CFO & Controller Services Without the $250K+ Salary
+          </h2>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+            Growing SMEs need high-level strategic financial guidance, but hiring a full-time Chief Financial Officer often costs upwards of $250,000 to $350,000 annually.
+          </p>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+            Prudent's Virtual CFO service delivers executive-grade financial oversight on an affordable, fractional basis. You get strategic direction when you need it most.
+          </p>
+
+          <div class="pt-2 flex flex-wrap gap-3">
+            <button data-open-modal="consultationModal" class="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm shadow">
+              Schedule CFO Discovery Call
+            </button>
+            <a href="tel:+17182614001" class="px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium text-sm border border-slate-700">
+              Call (718) 261-4001
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 space-y-6">
+          <h3 class="font-heading font-bold text-lg text-white border-b border-slate-800 pb-3">What Your Virtual CFO Oversees:</h3>
+          
+          <div class="space-y-4 text-xs sm:text-sm text-slate-300">
+            <div class="flex items-start gap-3">
+              <span class="text-emerald-400 font-bold">1.</span>
+              <div>
+                <strong class="text-white block">Board & Investor Reporting</strong>
+                <span>Professional presentation decks, cap table management, and financial summaries for stakeholders.</span>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-emerald-400 font-bold">2.</span>
+              <div>
+                <strong class="text-white block">Bank Lending & Credit Facilities</strong>
+                <span>Preparation of loan packages, debt financing negotiations, and maintaining strong relations with lenders.</span>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-emerald-400 font-bold">3.</span>
+              <div>
+                <strong class="text-white block">Strategic Growth & Margin Expansion</strong>
+                <span>Evaluating new business lines, capital expenditure (CapEx) investments, and strategic cost containment.</span>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-emerald-400 font-bold">4.</span>
+              <div>
+                <strong class="text-white block">Internal Financial Controls</strong>
+                <span>Separation of duties, anti-fraud controls, and accounting policy handbooks to safeguard assets.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 3: The 4-Phase Consulting Framework -->
+  <section class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <span class="text-xs font-bold text-emerald-700 uppercase tracking-wider">Methodology</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold font-heading text-slate-900">
+          Our Proven Consulting Engagement Process
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base">
+          A disciplined, results-driven process that turns confusion into financial clarity.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 space-y-3 shadow-sm">
+          <div class="w-8 h-8 rounded-full bg-emerald-700 text-white font-bold flex items-center justify-center text-sm">1</div>
+          <h3 class="font-heading font-bold text-slate-900 text-base">Diagnostic Deep-Dive</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            We review past 2-3 years of tax returns, QuickBooks data, debt structures, and operational expenses to pinpoint inefficiencies.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 space-y-3 shadow-sm">
+          <div class="w-8 h-8 rounded-full bg-emerald-700 text-white font-bold flex items-center justify-center text-sm">2</div>
+          <h3 class="font-heading font-bold text-slate-900 text-base">Strategic Roadmap</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            We deliver a step-by-step action plan with projected savings, revenue targets, cash flow runways, and software fixes.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 space-y-3 shadow-sm">
+          <div class="w-8 h-8 rounded-full bg-emerald-700 text-white font-bold flex items-center justify-center text-sm">3</div>
+          <h3 class="font-heading font-bold text-slate-900 text-base">Implementation</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Our team works hand-in-hand with your leadership to restructure accounts, install automations, and clean up historical backlogs.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 space-y-3 shadow-sm">
+          <div class="w-8 h-8 rounded-full bg-emerald-700 text-white font-bold flex items-center justify-center text-sm">4</div>
+          <h3 class="font-heading font-bold text-slate-900 text-base">Continuous Monitoring</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Monthly or quarterly review sessions to track progress against budgets, stress-test forecasts, and adjust strategy dynamically.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 4: Consulting FAQ Accordion -->
+  <section class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+      <div class="text-center space-y-3">
+        <h2 class="text-2xl sm:text-3xl font-extrabold font-heading text-slate-900">
+          Frequently Asked Questions About Consulting
+        </h2>
+        <p class="text-slate-600 text-sm">
+          Clear answers about how we partner with your business.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        
+        <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+          <button class="faq-btn w-full p-4 sm:p-5 text-left font-heading font-bold text-slate-900 text-sm sm:text-base flex justify-between items-center">
+            <span>Can you work alongside our existing in-house bookkeeper or tax CPA?</span>
+            <svg class="w-5 h-5 text-slate-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer px-4 sm:px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed hidden">
+            Absolutely. We frequently collaborate with internal staff or external tax CPAs. We provide the higher-level analysis, software optimization, and cash forecasting that internal staff may not have time or specialized expertise to handle.
+          </div>
+        </div>
+
+        <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+          <button class="faq-btn w-full p-4 sm:p-5 text-left font-heading font-bold text-slate-900 text-sm sm:text-base flex justify-between items-center">
+            <span>How are consulting engagements structured and billed?</span>
+            <svg class="w-5 h-5 text-slate-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer px-4 sm:px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed hidden">
+            We offer both project-based fixed fee engagements (e.g., QuickBooks cleanup, financial diagnostic, M&A due diligence) and ongoing monthly retainers (e.g., Virtual CFO, monthly budgeting & variance review). Pricing is always agreed upon in advance with zero hidden surprises.
+          </div>
+        </div>
+
+        <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+          <button class="faq-btn w-full p-4 sm:p-5 text-left font-heading font-bold text-slate-900 text-sm sm:text-base flex justify-between items-center">
+            <span>Can you clean up messy historical QuickBooks files that are years behind?</span>
+            <svg class="w-5 h-5 text-slate-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer px-4 sm:px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed hidden">
+            Yes. Catch-up and cleanup is one of our most requested specialties. We have salvaged accounts that were 2-5 years out of balance, reconciling thousands of transactions and delivering clean, CPA-ready files for past-due tax returns or financing requests.
+          </div>
+        </div>
+
+        <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+          <button class="faq-btn w-full p-4 sm:p-5 text-left font-heading font-bold text-slate-900 text-sm sm:text-base flex justify-between items-center">
+            <span>How quickly can we begin our consulting engagement?</span>
+            <svg class="w-5 h-5 text-slate-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer px-4 sm:px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed hidden">
+            Typically within 24 to 48 hours of your initial discovery call. After executing our standard Non-Disclosure Agreement (NDA) and obtaining read-only access to your financial files, our senior team begins immediate diagnostic review.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Big Call to Action Banner (Guaranteed High Contrast) -->
+  <section class="py-20 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white relative overflow-hidden" style="background: linear-gradient(135deg, #022c22 0%, #064e3b 50%, #0f172a 100%) !important;">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 space-y-8">
+      
+      <span class="inline-block px-3.5 py-1.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 text-xs font-semibold uppercase tracking-wider">
+        Strategic Clarity
+      </span>
+
+      <h2 class="text-3xl sm:text-5xl font-extrabold font-heading text-white max-w-3xl mx-auto leading-tight">
+        Ready to Uncover Profitability Bottlenecks in Your Business?
+      </h2>
+
+      <p class="text-slate-200 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+        Book a complimentary 30-minute consultation with a senior Prudent consultant. We'll analyze your current financial challenges and outline high-impact advisory solutions.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
+        <button data-open-modal="consultationModal" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-white hover:bg-emerald-50 text-emerald-900 font-bold text-base shadow-xl transition-all">
+          Book Your Free Advisory Session
+        </button>
+        <a href="tel:+17182614001" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-emerald-950/60 hover:bg-emerald-950 text-white font-semibold text-base border border-emerald-400/30 transition-all flex items-center justify-center gap-2">
+          <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          <span>Call Us: +1 (718) 261-4001</span>
+        </a>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-6 text-xs text-emerald-200 pt-4">
+        <span>✓ No long-term commitments</span>
+        <span>✓ Free 30-min diagnostic</span>
+        <span>✓ 100% confidential under NDA</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="bg-navy-950 text-slate-400 pt-16 pb-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+        
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-bold">P</div>
+            <div>
+              <span class="font-heading font-bold text-white text-lg">PRUDENT</span>
+              <span class="block text-[11px] text-slate-400 uppercase">Financial Services, Inc. (Prufininc)</span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
+            Providing complete outsourced bookkeeping, managerial financial analysis, cash flow budgeting, and tax advisory for SMEs ($250K to $20M).
+          </p>
+          <div class="pt-2 text-xs text-slate-400 space-y-1">
+            <p><strong>USA Office:</strong> 118-35 Queens Blvd, Forest Hills, NY 11375</p>
+            <p><strong>Phone:</strong> +1 (718) 261-4001 | <strong>Email:</strong> info@prufininc.com</p>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-white text-sm mb-4">Main Menu</h4>
+          <ul class="space-y-2.5 text-xs">
+            <li><a href="index.html" class="hover:text-emerald-400 transition-colors">Home</a></li>
+            <li><a href="about.html" class="hover:text-emerald-400 transition-colors">About Us</a></li>
+            <li><a href="outsourcing.html" class="hover:text-emerald-400 transition-colors">Outsourcing</a></li>
+            <li><a href="services.html" class="hover:text-emerald-400 transition-colors">Services</a></li>
+            <li><a href="consulting.html" class="text-emerald-400 font-semibold">Consulting</a></li>
+            <li><a href="pricing.html" class="hover:text-emerald-400 transition-colors">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-white text-sm mb-4">Portals & Tools</h4>
+          <ul class="space-y-2.5 text-xs">
+            <li><a href="247bookkeeper.html" class="hover:text-emerald-400 transition-colors">247Bookkeeper™ System</a></li>
+            <li><a href="247ecabinet.html" class="hover:text-emerald-400 transition-colors">247eCabinet™ Vault</a></li>
+            <li><button data-open-modal="portalModal" class="hover:text-emerald-400 transition-colors text-left">Client Login</button></li>
+            <li><a href="outsourcing.html#savings-calculator" class="hover:text-emerald-400 transition-colors">ROI Calculator</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-white text-sm mb-4">Contact & Support</h4>
+          <ul class="space-y-2.5 text-xs">
+            <li><a href="contact.html" class="hover:text-emerald-400 transition-colors">Contact Us</a></li>
+            <li><a href="tel:+17182614001" class="hover:text-emerald-400 transition-colors">+1 (718) 261-4001</a></li>
+            <li><a href="tel:+914023543811" class="hover:text-emerald-400 transition-colors">+91 40 2354 3811</a></li>
+            <li><button data-open-modal="consultationModal" class="text-emerald-400 font-medium hover:underline text-left">Book Consultation</button></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-slate-800 text-xs text-slate-500 text-center">
+        © <span class="current-year">2026</span> Prudent Financial Services, Inc. (Prufininc). All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Universal Consultation Modal -->
+  <div id="consultationModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 modal-overlay">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border border-slate-200">
+      <button id="closeModalBtn" aria-label="Close Modal" class="absolute top-5 right-5 p-2 rounded-full text-slate-400 hover:text-slate-700">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <div class="space-y-2 mb-6">
+        <span class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold">Free Advisory Session</span>
+        <h3 class="text-2xl font-bold font-heading text-slate-900">Book Your Discovery Call</h3>
+        <p class="text-xs text-slate-500">A senior consultant will review your financial setup and answer your questions directly.</p>
+      </div>
+      <form data-lead-form="true" class="space-y-3.5">
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1">Full Name *</label>
+          <input type="text" required placeholder="John Miller" class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 mb-1">Work Email *</label>
+            <input type="email" required placeholder="john@company.com" class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 mb-1">Phone Number *</label>
+            <input type="tel" required placeholder="+1 (718) 000-0000" class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+          </div>
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1">Primary Consulting Need</label>
+          <select class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white">
+            <option>Cash Flow & Budgeting Forecasts</option>
+            <option>QuickBooks System Cleanup & Migration</option>
+            <option>Financial Analysis & Profitability Review</option>
+            <option>Virtual CFO / Controller Oversight</option>
+            <option>Business Acquisition / Sale (M&A Advisory)</option>
+          </select>
+        </div>
+        <button type="submit" class="w-full py-3.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-sm shadow-md transition-all">
+          Submit Consultation Request →
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Client Portal Login Modal -->
+  <div id="portalModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 modal-overlay">
+    <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 shadow-2xl relative border border-slate-200">
+      <button id="closePortalModalBtn" aria-label="Close Modal" class="absolute top-5 right-5 p-2 rounded-full text-slate-400 hover:text-slate-700">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <div class="text-center space-y-2 mb-6">
+        <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold mx-auto text-xl">
+          🔐
+        </div>
+        <h3 class="text-xl font-bold font-heading text-slate-900">247eCabinet™ Client Access</h3>
+        <p class="text-xs text-slate-500">Sign in to your encrypted digital document repository</p>
+      </div>
+      <form id="portalLoginForm" class="space-y-4">
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1">Client ID / Email</label>
+          <input type="email" required value="client@prufininc.com" class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-300 bg-slate-50">
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1">Password</label>
+          <input type="password" required value="demo123456" class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-300 bg-slate-50">
+        </div>
+        <button type="submit" class="w-full py-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-sm shadow">
+          Sign In to 247eCabinet →
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
