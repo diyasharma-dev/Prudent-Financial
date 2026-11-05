@@ -28,11 +28,10 @@
 
       <!-- Form state -->
       <div v-else>
-        <div class="text-center mb-5">
-          <img src="/images/prufininc-logo-transparent.png" alt="Prudent Financial Services, Inc." class="h-14 w-auto mx-auto object-contain mb-3" />
-          <span class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold mb-1">Free 30-Min Diagnostic</span>
+        <div class="space-y-1 mb-6">
+          <span class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold">Free 30-Min Diagnostic</span>
           <h3 class="text-2xl font-bold font-heading text-slate-900">Book Your Discovery Call</h3>
-          <p class="text-xs text-slate-500 mt-1">A senior Prudent accountant will review your current bookkeeping and show you exact savings.</p>
+          <p class="text-xs text-slate-500">A senior Prudent accountant will review your current bookkeeping and show you exact savings.</p>
         </div>
 
         <form @submit.prevent="handleSubmit" class="space-y-3.5">

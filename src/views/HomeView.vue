@@ -12,14 +12,6 @@
           
           <!-- Left Hero Content -->
           <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-            <div class="flex items-center justify-center lg:justify-start gap-3 mb-2">
-              <img 
-                src="/images/prufininc-logo-transparent.png" 
-                alt="Prudent Financial Services, Inc." 
-                class="h-16 sm:h-20 w-auto object-contain drop-shadow-sm"
-              />
-            </div>
-
             <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100/80 border border-emerald-300 text-emerald-900 text-xs font-semibold tracking-wide shadow-sm">
               <span class="w-2 h-2 rounded-full bg-emerald-600"></span>
               <span>US CPA Leadership • 24/7 Dual-Shore Delivery</span>
@@ -158,18 +150,8 @@
           
           <!-- Left Column: Rich Content & Feature Points -->
           <div class="lg:col-span-6 space-y-6">
-            <div class="flex items-center gap-4">
-              <img 
-                src="/images/prufininc-logo-transparent.png" 
-                alt="Prudent Financial Services, Inc." 
-                class="h-16 sm:h-20 w-auto object-contain drop-shadow-sm"
-              />
-              <div>
-                <span class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider">
-                  Company Heritage &amp; Mission
-                </span>
-                <p class="text-xs text-slate-500 font-medium mt-0.5">Prudent Financial Services, Inc.</p>
-              </div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider">
+              <span>Company Heritage &amp; Mission</span>
             </div>
 
             <div class="border-b-2 border-emerald-600 pb-3">

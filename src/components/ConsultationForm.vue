@@ -11,10 +11,6 @@
           
           <!-- Left Column: Value Proposition & Direct Contact -->
           <div class="lg:col-span-6 space-y-6">
-            <div class="flex items-center gap-3">
-              <img src="/images/prufininc-logo-white.png" alt="Prudent Financial Services, Inc." class="h-16 w-auto object-contain" />
-            </div>
-
             <span class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-semibold uppercase tracking-wider border border-emerald-400/30">
               Free 30-Minute Financial Diagnostic
             </span>
