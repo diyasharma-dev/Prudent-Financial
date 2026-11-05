@@ -1,0 +1,24 @@
+{
+  "name": "prufininc-website",
+  "version": "1.0.0",
+  "description": "Prudent Financial Services, Inc. (Prufininc) - Modern Accounting & Bookkeeping Corporate Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "preview": "node server.js",
+    "deploy:pages": "npx wrangler pages deploy . --project-name=prufininc",
+    "deploy:worker": "npx wrangler deploy"
+  },
+  "keywords": [
+    "accounting",
+    "bookkeeping",
+    "cpa",
+    "tax",
+    "prudent",
+    "prufininc",
+    "cloudflare-worker",
+    "financial-services"
+  ],
+  "author": "Prudent Financial Services, Inc.",
+  "license": "ISC"
+}
