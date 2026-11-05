@@ -27,24 +27,17 @@
       </div>
     </div>
 
-    <!-- Main Navigation Header -->
+    <!-- Main Navigation Header with Official prufininc.com Logo -->
     <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all duration-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         
-        <!-- Brand Logo -->
-        <router-link to="/" class="flex items-center gap-3 group">
-          <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-800 flex items-center justify-center text-white shadow-md shadow-emerald-700/20 group-hover:scale-105 transition-transform">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-            </svg>
-          </div>
-          <div>
-            <div class="flex items-center gap-1.5">
-              <span class="font-heading font-extrabold text-xl tracking-tight text-slate-900 group-hover:text-emerald-700 transition-colors">PRUDENT</span>
-              <span class="text-xs font-semibold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800 tracking-wide uppercase">Prufininc</span>
-            </div>
-            <span class="block text-[11px] font-medium tracking-wider text-slate-500 uppercase -mt-0.5">Financial Services, Inc.</span>
-          </div>
+        <!-- Official Brand Logo Link -->
+        <router-link to="/" class="flex items-center gap-2 group py-1" aria-label="Prudent Financial Services, Inc. Homepage">
+          <img 
+            src="/images/logo.svg" 
+            alt="Prudent Financial Services, Inc. (Prufininc)" 
+            class="h-10 sm:h-11 w-auto object-contain group-hover:opacity-90 transition-opacity"
+          />
         </router-link>
 
         <!-- Desktop Navigation Menu (Matching Original Prufininc Structure) -->
@@ -100,10 +93,9 @@
     <div v-if="isDrawerOpen" @click="isDrawerOpen = false" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-50"></div>
     <div class="fixed top-0 right-0 w-80 max-w-[85vw] h-full bg-white z-50 shadow-2xl transform transition-transform duration-300 ease-in-out flex flex-col" :class="isDrawerOpen ? 'translate-x-0' : 'translate-x-full'">
       <div class="p-5 border-b border-slate-100 flex items-center justify-between">
-        <div class="flex items-center gap-2">
-          <div class="w-9 h-9 rounded-lg bg-emerald-700 text-white flex items-center justify-center font-bold">P</div>
-          <span class="font-heading font-bold text-slate-900">Prudent Financial</span>
-        </div>
+        <router-link to="/" @click="isDrawerOpen = false" class="flex items-center gap-2">
+          <img src="/images/logo.svg" alt="Prudent Financial Logo" class="h-8 w-auto object-contain" />
+        </router-link>
         <button @click="isDrawerOpen = false" aria-label="Close Mobile Menu" class="p-2 rounded-lg text-slate-400 hover:text-slate-700">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
         </button>
