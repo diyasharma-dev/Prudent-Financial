@@ -33,11 +33,14 @@
         
         <!-- Large Official Brand Logo (prufininc.com) -->
         <router-link to="/" class="flex items-center gap-3 group py-1.5 shrink-0" aria-label="Prudent Financial Services, Inc. Homepage">
-          <img 
-            src="/images/prufininc-logo-transparent.png" 
-            alt="Prudent Financial Services, Inc. (Prufininc)" 
-            class="h-16 sm:h-20 lg:h-24 w-auto object-contain group-hover:scale-102 transition-transform drop-shadow-sm"
-          />
+          <picture>
+            <source srcset="/images/prufininc-logo-transparent.svg" type="image/svg+xml" />
+            <img 
+              src="/images/prufininc-logo-transparent.png" 
+              alt="Prudent Financial Services, Inc. (Prufininc)" 
+              class="h-16 sm:h-20 lg:h-24 w-auto object-contain group-hover:scale-102 transition-transform"
+            />
+          </picture>
         </router-link>
 
         <!-- Desktop Navigation Menu (Matching Original Prufininc Structure) -->

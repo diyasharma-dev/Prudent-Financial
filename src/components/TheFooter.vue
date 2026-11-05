@@ -7,11 +7,14 @@
         <!-- Brand Column with Official Logo -->
         <div class="lg:col-span-2 space-y-4">
           <router-link to="/" class="inline-block" aria-label="Prudent Financial Homepage">
-            <img 
-              src="/images/prufininc-logo-white.png" 
-              alt="Prudent Financial Services, Inc. (Prufininc)" 
-              class="h-20 sm:h-24 w-auto object-contain"
-            />
+            <picture>
+              <source srcset="/images/prufininc-logo-white.svg" type="image/svg+xml" />
+              <img 
+                src="/images/prufininc-logo-white.png" 
+                alt="Prudent Financial Services, Inc. (Prufininc)" 
+                class="h-20 sm:h-24 w-auto object-contain"
+              />
+            </picture>
           </router-link>
           
           <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
