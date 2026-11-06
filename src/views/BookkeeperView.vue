@@ -14,12 +14,27 @@
             Real-time managerial reporting, daily cash positions, and automated reconciliation feeds.
           </p>
         </div>
-        <div class="flex items-center gap-3">
-          <router-link to="/247ecabinet" class="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white text-xs font-medium border border-slate-700">
-            Switch to 247eCabinet™ Vault
+        <div class="flex flex-wrap items-center gap-3">
+          <router-link 
+            to="/247ecabinet" 
+            class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold border border-slate-700 transition-colors shadow-sm"
+            title="Switch to 247eCabinet™ encrypted document vault demo"
+          >
+            <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+            </svg>
+            <span>View 247eCabinet™ Vault</span>
           </router-link>
-          <button @click="openConsultationModal" class="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold shadow">
-            Deploy for My Business
+          
+          <button 
+            @click="openConsultationModal" 
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold shadow-md shadow-emerald-950/40 transition-all hover:scale-[1.02]"
+            title="Schedule a free consultation for your business accounting"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <span>Schedule Free Consultation</span>
           </button>
         </div>
       </div>
