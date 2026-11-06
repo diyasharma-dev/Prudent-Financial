@@ -347,7 +347,7 @@
 
             <div class="p-6 pt-0">
               <router-link to="/247bookkeeper" class="inline-flex items-center gap-2 text-xs font-bold text-emerald-700 hover:text-emerald-800 transition-colors">
-                <span>Explore 247Bookkeeper™ Features</span>
+                <span>Access 247Bookkeeper™ Portal</span>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
               </router-link>
             </div>
@@ -386,7 +386,7 @@
 
             <div class="p-6 pt-0">
               <router-link to="/247ecabinet" class="inline-flex items-center gap-2 text-xs font-bold text-emerald-700 hover:text-emerald-800 transition-colors">
-                <span>View 247eCabinet™ Live Vault Demo</span>
+                <span>Access 247eCabinet™ Vault</span>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
               </router-link>
             </div>
